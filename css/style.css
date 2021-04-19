@@ -1,0 +1,402 @@
+/*UTILIDADES*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.body {    
+    background-color: #F8F8F8;
+}
+.body {
+    overflow-x: hidden;
+}
+.body::-webkit-scrollbar {
+    width: 5px;      
+}
+.body::-webkit-scrollbar-thumb{
+    background-color: #FFB60E;    
+}
+.body::-webkit-scrollbar-track {
+    background: transparent;   
+}
+.m-12{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: min(1.3vw, 12px);
+}
+.m-14 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(1.4vw, 14px)
+}
+.m-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: min(1.5vw, 14px)
+}
+.m-28{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;   
+    font-size: min(2.4vw, 28px)
+}
+.m-32{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+    font-size: min(2.7vw, 32px)
+}
+.m-44{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: min(2.4vw, 40px)
+}
+.color {
+    color: #FFB60E;
+}
+.li-color {
+    color: #FFB60E;
+}
+.text-gray {
+    color: #4D555E;
+}
+.max-w {
+    max-width: 1240px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.fondo {
+    background-color: #fff !important;
+    transition: background-color 1.5s;
+}
+.font1 {
+    color: rgb(0, 0, 0); 
+}
+.font2 {
+    color: rgb(255, 255, 255); 
+}
+#error {
+    color: red;
+}
+/*MENU*/
+.navbar {
+    background-color: transparent;
+    transition: background-color 1.5s;
+    height: 100px;    
+}
+.nav-link {
+}
+.nav-link:hover {
+    color: rgb(216, 216, 216);
+}
+.navbar-brand img {
+    width: 100%;
+}
+/*SECCION 1*/
+.sec-1{
+    background-image: url('../img/header-background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: 5px solid #FFB60E;   
+}
+.text-header {
+margin-top: 25% !important;
+margin-bottom: 10%;
+margin-left: 20% !important;
+max-width: 414px !important;
+}
+.text-header p {
+    margin-bottom: 0px;
+}
+.form-header {
+    margin: 80px 0 80px 0 !important;
+}
+/*FORMULARIO*/
+.cat-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 456px;
+    /*height: 620px;*/
+}
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+input,
+textarea {
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    height: 40px;    
+  }
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid#FFB917;   
+  }
+textarea {
+    vertical-align: top;
+    resize: none !important;
+    height: 5em;
+  }
+.button {
+    background-color: #FFB60E ;
+    border-radius: 5px !important;
+    width: 100%;
+    border: none;
+}
+.button:hover {
+    background-color: #FBC344;
+}
+.button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+/*SECCIÓN 2*/
+.sec-2-logo {
+width: 250px;
+}
+/*SECCIÓN 3*/
+.cat-3 li {
+    width: 50%;
+}
+/*SECCIÓN 3-3*/
+.cat-3-3 {
+    font-weight: 600;
+    color: #B4B4B4;    
+    background-color: transparent !important;
+}
+.cat-3-3.active {
+    font-weight: 600;
+    color: #343A40 !important;
+    border-bottom: 5px solid #FFB60E ;
+}
+.img-3-2 {
+    width: 100%;
+}
+.tab-pane p {
+    width: 50%;
+}
+/*SECCIÓN TITULO*/
+.titulo , .banner-titulo {
+    width: 60%;
+    color: #FFB60E;
+}
+/*SECCIÓN BANNER*/
+.banner-contacto{
+    background-image: url('../img/consulta.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-contacto button {
+    color: white;
+    background-color: #FFB60E;
+    border-radius: 5px !important;
+    width: 30%;
+    border: none;
+    height: 50px;
+}
+/*SECCIÓN 5*/
+.cat-5-2 h5 {
+    font-weight: 900;
+    color: black;
+}
+.cat-5-2 p {
+    color: #343A40;
+}
+/*FOOTER*/
+.footer {
+    background-color: #FFB60E;
+}
+.icon-wp {
+    cursor: pointer;
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.footer a {
+    margin-left: 10px;
+    color: white;
+    font-size: .9vw;
+    text-decoration: none;
+}
+.icon-wp:hover {
+    filter: saturate(1.5);
+    opacity: 1;
+}
+/*MEDIA QUERY 1024*/
+@media (max-width: 1025px) { 
+    .titulo h2{
+        font-size: 2.3vw;
+    }
+    .banner-titulo {
+        width: 80%;
+    }
+}
+/*MEDIA QUERY 768*/
+@media (max-width: 769px) {
+    .m-12{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: min(1.2vw, 12px)
+    }
+    .m-44{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: min(3vw, 40px)
+    }
+    /*NAVBAR*/
+    .nav-link {
+        padding-right: 0 !important; 
+    }
+    /*SECCION 1*/
+    .text-header {
+        margin-top: 25% !important;
+        margin-bottom: 0;
+        margin-left: 2% !important;
+        max-width: 414px !important;
+    }
+}
+/*MEDIA QUERY 425*/
+@media (max-width: 426px) {
+    .body {    
+    position: relative;
+}
+    .m-12{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: min(4vw, 12px)
+    }
+    .m-44{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: min(7vw, 40px)
+    }
+    .m-14 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: min(4vw, 14px)
+    }
+    .m-16 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: min(4vw, 14px)
+    }
+    .m-28{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;   
+        font-size: min(7vw, 28px)
+    }
+    .m-32{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;   
+        font-size: min(7.5vw, 32px)
+    }    
+    /*NAVBAR*/
+    .navbar {
+        background-color: #fff !important;        
+    }
+    .nav-link {
+        padding-right: 0 !important;         
+    }
+    .navbar-toggler-icon {
+        background-image: url('../img/icon-menu.png');
+    }
+    .navbar-toggler {
+        margin-right: 5%;
+    }    
+    .navbar-collapse {
+        margin-top: 4.5%;
+       padding: 5%;
+       background-color: #fff !important;
+    }
+    .nav-in {
+        padding: 0 !important;
+    }
+    .navbar-brand img {
+        margin-left: 5%;
+    }       
+    /*SECCION 1*/
+    .text-header {
+        margin-top: 10% !important;
+        margin-bottom: 0;
+        margin-left: 2% !important;
+        max-width: 414px !important;
+    }
+    .cat-form {
+        width: 100%;
+    }
+    .sec-1{
+        background-image: url('../img/header-background-mobil.jpg');
+        background-size: cover;
+        width: 100%;       
+    }
+    /*SECCION 2*/
+    .sec-2-logo {
+        margin-bottom: 15%;
+    }
+    .tarjeta {
+        padding-bottom: 15%;
+    }
+    .titulo h2 {
+        font-size: min(7.5vw, 32px);
+        text-align: center;
+        margin-bottom: 10%;
+    }
+      /*SECCION 3*/
+      .sec-3-caja {
+        background-color: white;
+        padding: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 8px;
+      }
+      /*SECCION 3.2*/
+      .li-color h5 {
+          padding-top: 10%;
+          font-size: 4.3vw;
+          font-weight: 500;
+          color: #4D555E;
+      }
+      /*SECCION 3.3*/
+    .cat-3 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .cat-3-3 {
+        font-size: 6vw !important;       
+    }
+    .tab-pane p {
+        width: 90%;
+    }
+    /*SECCIÓN BANNER*/
+    .banner-contacto{
+     margin-top: 10%;
+    }   
+    .banner-contacto button {
+        width: 90%;       
+    }
+    .icon-wp {
+        width:50px;
+        height:50px;
+    }
+    .footer a {
+        font-size: 3vw;
+    }
+
+}
